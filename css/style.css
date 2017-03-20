@@ -1,0 +1,168 @@
+.logo{
+    padding:10px 0px;
+}
+.logo div:nth-child(2) img{
+    margin:10px auto;
+}
+.head{
+    position:relative;
+    margin-top:-20px;
+}
+.head span{
+    display:block;
+    margin-left: -140px;
+    width:279px;
+    height:150px;
+    position:absolute;
+    left:50%;
+    top:30%;
+    
+}
+/*导航*/
+nav {
+     background: #e22a13;
+     
+}
+nav .nav>li>a{
+    position: relative;
+    display: block;
+    padding: 15px 40px;
+} 
+nav a{
+    color: #fff;
+    border-right:1px solid #e76035;
+}
+nav .navbar-nav li:last-child a{
+    border-right:0;
+}
+/*轮播*/
+.dtlb{
+    padding: 0;
+    margin-top: -20px;
+}
+.dtlb ol li{
+    border:1px solid red;
+}
+.dtlb ol .active{
+    background: red;
+    
+}
+
+.jgdb{
+    margin-top:40px;
+}
+.jgdb .container div p:nth-child(2){
+    margin-top:20px;
+}
+.jgdb>div div p:nth-child(3){
+    color:#999999;
+}
+// 成功案列
+// .newsb{
+//     background:#e6e3e2;
+//     padding-top:25px;
+// }
+.newsb .container .row{
+    margin-top:10px;
+}
+.newsb .container .row div:nth-child(2n-1){
+    background:#fff;
+} 
+.newsb .container .row div:nth-child(2n-1) h4{
+    margin-top:50px;
+}
+.newsb .container .row div:nth-child(2n-1) img{
+    margin:10px auto 22px;
+}
+.newsb h1 span{
+    width:100px;
+    padding:5px;
+    font-weight: 100;
+}
+.newsb .shadow,.news .shadow{
+    width:80px;
+    height: 10px;
+    margin:0 auto;
+    background:#a49d9a;
+    display: block;
+}
+.newsb>div{
+    margin-top:50px;
+}
+.news{
+   padding-top:30px;
+
+}
+.news>div{
+    margin-top:60px;
+}
+.news div h4{
+    padding-left: 30px;
+    border-bottom: 1px solid black;
+}
+.news div ul{
+    margin-top:40px;
+}
+.footer{
+    margin-top:50px;
+    padding-top:50px;
+    background:#eeeeed;
+}
+.footer div div:nth-child(2){
+    border-left:1px solid #ccc;
+}
+// 关于我们页面
+// .gsjs{
+//     margin-top:50px;
+// }
+.gsjs p:nth-child(4){
+    margin-top:60px;
+    padding-bottom: 50px;
+}
+.photo{
+    margin-top:50px;
+}
+.fz,.way{
+    margin-top:50px;
+}
+.fz div{
+    margin-top:50px;
+}
+// 成功案例页面
+// .suc .container .row{
+//     margin-top:10px;
+//     color:#fff;
+// }
+.suc .container .row div:nth-child(2){
+    padding-right: 0px;
+}
+.suc .container .row div.col-lg-8 p{
+    margin-top:100px;
+    margin-left:10%;
+    padding-left:30px;
+    border-left:2px solid #fff;
+}
+// 联系我们
+// 成功案例子夜
+.manbd .container div p:nth-child(3){
+    margin-top:30px;
+}
+.manbd .container div p{
+    text-indent: 30px;
+}
+// 新闻资讯
+// .newq .container .row{
+//     margin-top:20px;
+//     border-bottom: 1px solid #999;
+// }
+.newq a{
+    color:#666;
+    border: 1px solid #666;
+    padding:5px;
+    margin-top:30px;
+    display:inline-block;
+}
+// 新闻资讯子夜
+.zt{
+    margin-top:50px;
+}
